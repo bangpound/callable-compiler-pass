@@ -94,6 +94,8 @@ class AppKernel extends Kernel
         $bundles = array(
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
         );
+
+        return $bundles;
     }
 
     protected function configureContainer(ContainerBuilder $c, LoaderInterface $loader)
