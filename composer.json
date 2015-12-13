@@ -1,0 +1,19 @@
+{
+    "name": "bangpound/callable-compiler-pass",
+    "description": "Create compiler passes in Symfony without defining another class",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Doherty",
+            "email": "bjd@bangpound.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bangpound\\Symfony\\DependencyInjection\\": ""
+        }
+    },
+    "require": {
+        "symfony/dependency-injection": "~2.3|~3.0"
+    }
+}
