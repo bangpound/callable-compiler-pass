@@ -1,4 +1,4 @@
-Callable Compiler Pass
+Callable Compiler Pass [![Build Status](https://travis-ci.org/bangpound/callable-compiler-pass.svg?branch=master)](https://travis-ci.org/bangpound/callable-compiler-pass)
 ======================
 
 Use this implementation of `CompilerPassInterface` to [create compiler passes][1] in
